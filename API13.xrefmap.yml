@@ -125417,19 +125417,6 @@ references:
   commentId: T:Tizen.NUI.Binding.BindableObject
   fullName: Tizen.NUI.Binding.BindableObject
   nameWithType: BindableObject
-- uid: Tizen.NUI.Binding.BindableObject.ChangedPropertiesSetExcludingStyle
-  name: ChangedPropertiesSetExcludingStyle
-  href: API13/api/Tizen.NUI.Binding.BindableObject.html#Tizen_NUI_Binding_BindableObject_ChangedPropertiesSetExcludingStyle
-  commentId: P:Tizen.NUI.Binding.BindableObject.ChangedPropertiesSetExcludingStyle
-  fullName: Tizen.NUI.Binding.BindableObject.ChangedPropertiesSetExcludingStyle
-  nameWithType: BindableObject.ChangedPropertiesSetExcludingStyle
-- uid: Tizen.NUI.Binding.BindableObject.ChangedPropertiesSetExcludingStyle*
-  name: ChangedPropertiesSetExcludingStyle
-  href: API13/api/Tizen.NUI.Binding.BindableObject.html#Tizen_NUI_Binding_BindableObject_ChangedPropertiesSetExcludingStyle_
-  commentId: Overload:Tizen.NUI.Binding.BindableObject.ChangedPropertiesSetExcludingStyle
-  isSpec: "True"
-  fullName: Tizen.NUI.Binding.BindableObject.ChangedPropertiesSetExcludingStyle
-  nameWithType: BindableObject.ChangedPropertiesSetExcludingStyle
 - uid: Tizen.NUI.Binding.BindableObject.PropertyChanged
   name: PropertyChanged
   href: API13/api/Tizen.NUI.Binding.BindableObject.html#Tizen_NUI_Binding_BindableObject_PropertyChanged
