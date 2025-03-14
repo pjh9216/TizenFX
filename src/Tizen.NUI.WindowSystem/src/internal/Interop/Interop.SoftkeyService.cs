@@ -8,7 +8,7 @@ namespace Tizen.NUI.WindowSystem.Shell
     {
         internal static partial class SoftkeyService
         {
-            const string lib = "libtzsh_softkey_service.so.0";
+            const string lib = "libtzsh_softkey_service_nui.so.0";
 
             [global::System.Runtime.InteropServices.DllImport(lib, EntryPoint = "tzsh_softkey_service_create")]
             internal static extern IntPtr Create(IntPtr tzsh, uint win);

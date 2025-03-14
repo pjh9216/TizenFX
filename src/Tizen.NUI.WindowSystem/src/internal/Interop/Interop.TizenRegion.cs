@@ -8,7 +8,7 @@ namespace Tizen.NUI.WindowSystem.Shell
     {
         internal static partial class TizenRegion
         {
-            const string lib = "libtzsh_common.so.0";
+            const string lib = "libtzsh_common_nui.so.0";
 
             [global::System.Runtime.InteropServices.DllImport(lib, EntryPoint = "tzsh_region_create")]
             internal static extern IntPtr Create(IntPtr tzsh);

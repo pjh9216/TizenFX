@@ -8,7 +8,7 @@ namespace Tizen.NUI.WindowSystem.Shell
     {
         internal static partial class KVMService
         {
-            const string lib = "libtzsh_kvm_service.so.0";
+            const string lib = "libtzsh_kvm_service_nui.so.0";
 
             [global::System.Runtime.InteropServices.DllImport(lib, EntryPoint = "tzsh_kvm_service_create")]
             internal static extern IntPtr Create(IntPtr tzsh, uint win);

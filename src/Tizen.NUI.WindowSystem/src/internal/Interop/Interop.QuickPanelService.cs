@@ -8,7 +8,7 @@ namespace Tizen.NUI.WindowSystem.Shell
     {
         internal static partial class QuickPanelService
         {
-            const string lib = "libtzsh_quickpanel_service.so.0";
+            const string lib = "libtzsh_quickpanel_service_nui.so.0";
 
             [global::System.Runtime.InteropServices.DllImport(lib, EntryPoint = "tzsh_quickpanel_service_create_with_type")]
             internal static extern IntPtr CreateWithType(IntPtr tzsh, uint win, int type);

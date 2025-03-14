@@ -8,7 +8,7 @@ namespace Tizen.NUI.WindowSystem.Shell
     {
         internal static partial class ScreensaverService
         {
-            const string lib = "libtzsh_screensaver_service.so.0";
+            const string lib = "libtzsh_screensaver_service_nui.so.0";
 
             [global::System.Runtime.InteropServices.DllImport(lib, EntryPoint = "tzsh_screensaver_service_create")]
             internal static extern IntPtr Create(IntPtr tzsh, uint win);
