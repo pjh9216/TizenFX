@@ -8,33 +8,33 @@ namespace Tizen.NUI.WindowSystem
     {
         internal static partial class InputGenerator
         {
-            const string lib = "libcapi-ui-efl-util.so.0";
+            const string lib = "libnui-util.so.0";
 
-            [global::System.Runtime.InteropServices.DllImport(lib, EntryPoint = "efl_util_input_initialize_generator")]
+            [global::System.Runtime.InteropServices.DllImport(lib, EntryPoint = "nui_util_input_initialize_generator")]
             internal static extern IntPtr Init(int devType);
 
-            [global::System.Runtime.InteropServices.DllImport(lib, EntryPoint = "efl_util_input_initialize_generator_with_name")]
+            [global::System.Runtime.InteropServices.DllImport(lib, EntryPoint = "nui_util_input_initialize_generator_with_name")]
             internal static extern IntPtr InitWithName(int devType, string devName);
 
-            [global::System.Runtime.InteropServices.DllImport(lib, EntryPoint = "efl_util_input_initialize_generator_with_sync")]
+            [global::System.Runtime.InteropServices.DllImport(lib, EntryPoint = "nui_util_input_initialize_generator_with_sync")]
             internal static extern IntPtr SyncInit(int devType, string devName);
 
-            [global::System.Runtime.InteropServices.DllImport(lib, EntryPoint = "efl_util_input_deinitialize_generator")]
+            [global::System.Runtime.InteropServices.DllImport(lib, EntryPoint = "nui_util_input_deinitialize_generator")]
             internal static extern ErrorCode Deinit(IntPtr inputGenHandler);
 
-            [global::System.Runtime.InteropServices.DllImport(lib, EntryPoint = "efl_util_input_generate_key")]
+            [global::System.Runtime.InteropServices.DllImport(lib, EntryPoint = "nui_util_input_generate_key")]
             internal static extern ErrorCode GenerateKey(IntPtr inputGenHandler, string keyName, int pressed);
 
-            [global::System.Runtime.InteropServices.DllImport(lib, EntryPoint = "efl_util_input_generate_pointer")]
+            [global::System.Runtime.InteropServices.DllImport(lib, EntryPoint = "nui_util_input_generate_pointer")]
             internal static extern ErrorCode GeneratePointer(IntPtr inputGenHandler, int buttons, int pointerType, int x, int y);
 
-            [global::System.Runtime.InteropServices.DllImport(lib, EntryPoint = "efl_util_input_generate_wheel")]
+            [global::System.Runtime.InteropServices.DllImport(lib, EntryPoint = "nui_util_input_generate_wheel")]
             internal static extern ErrorCode GenerateWheel(IntPtr inputGenHandler, int wheelType, int value);
 
-            [global::System.Runtime.InteropServices.DllImport(lib, EntryPoint = "efl_util_input_generate_touch")]
+            [global::System.Runtime.InteropServices.DllImport(lib, EntryPoint = "nui_util_input_generate_touch")]
             internal static extern ErrorCode GenerateTouch(IntPtr inputGenHandler, int idx, int touchType, int x, int y);
 
-            [global::System.Runtime.InteropServices.DllImport(lib, EntryPoint = "efl_util_input_generate_touch_axis")]
+            [global::System.Runtime.InteropServices.DllImport(lib, EntryPoint = "nui_util_input_generate_touch_axis")]
             internal static extern ErrorCode GenerateTouchAxis(IntPtr inputGenHandler, int idx, int touchType, int x, int y, double radius_x, double radius_y, double pressure, double angle, double palm);
 
             // Enumeration of input device types.
