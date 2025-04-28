@@ -24,6 +24,6 @@ internal static partial class Interop
     /// </summary>
     internal static partial class Libraries
     {
-        public const string Tts = "libtts.so";
+        public const string Tts = "libtts_nui.so";
     }
 }
