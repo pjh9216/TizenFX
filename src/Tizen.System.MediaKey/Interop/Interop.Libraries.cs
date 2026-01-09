@@ -18,6 +18,6 @@ internal static partial class Interop
 {
     internal static partial class Libraries
     {
-        public const string MediaKey = "libcapi-system-media-key.so.0";
+        public const string MediaKey = "libcapi-system-media-key-tcore.so.0";
     }
 }
